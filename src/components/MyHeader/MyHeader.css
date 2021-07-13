@@ -1,0 +1,42 @@
+.day {
+  background-color: white;
+  color: black;
+  animation: switchOn 2s 1;
+}
+
+@keyframes switchOn {
+  from {
+    background-color: black;
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
+.night {
+  background-color: black;
+  color: white;
+  animation: switchOff 2s 1;
+}
+@keyframes switchOff {
+  from {
+    background-color: white;
+    color: black;
+  }
+  to {
+    background-color: black;
+    color: white;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.sun {
+  height: 48px;
+}
