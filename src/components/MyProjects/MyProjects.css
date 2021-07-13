@@ -1,0 +1,8 @@
+#images {
+  max-width: 162px;
+  height: auto;
+}
+.card-body {
+  height: 200px;
+  width: auto;
+}
