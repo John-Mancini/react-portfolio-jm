@@ -1,8 +1,37 @@
 #images {
-  max-width: 162px;
+  max-width: 60%;
   height: auto;
+  display: flex;
+  align-self: center;
+  border: #6d6363 solid 2px;
+  border-radius: 2%;
 }
 .card-body {
   height: 200px;
   width: auto;
+}
+.project-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.project-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.btnGroup {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 645px) {
+  .btn {
+    font-size: 0%;
+  }
+  .btn i {
+    font-size: 80%;
+  }
 }

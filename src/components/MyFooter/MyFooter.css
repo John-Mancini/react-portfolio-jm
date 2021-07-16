@@ -7,4 +7,24 @@
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+  font-size: 14px;
+  background-color: black;
+}
+.footerText {
+  line-height: 46px;
+  font-size: 10px;
+  text-shadow: 2px 2px 2px #fff697;
+  color: black;
+  font-weight: bolder;
+}
+
+.footerLink {
+  height: 40px;
+  margin-top: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footerLink {
+    height: 64px;
+  }
 }

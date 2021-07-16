@@ -60,8 +60,8 @@ function MyProjects() {
 
 function Project(props) {
   return (
-    <div className="col-6">
-      <div className="card">
+    <div className="col-6 project-parent">
+      <div className="card project-container">
         <img
           id="images"
           src={props.data.image}
@@ -70,12 +70,22 @@ function Project(props) {
         />
         <div className="card-body">
           <h5 className="card-title">{props.data.title}</h5>
-          <a href={props.data.link} target="_blank" className="btn btn-primary">
-            Deployed Site
-          </a>
-          <a href={props.data.repo} target="_blank" className="btn btn-primary">
-            Repository
-          </a>
+          <div className="btnGroup">
+            <a
+              href={props.data.link}
+              target="_blank"
+              className="btn btn-danger"
+            >
+              <i class="fas fa-arrow-circle-up"></i> Deployed Site
+            </a>
+            <a
+              href={props.data.repo}
+              target="_blank"
+              className="btn btn-primary"
+            >
+              <i class="fab fa-github"> </i> Repository
+            </a>
+          </div>
         </div>
       </div>
     </div>

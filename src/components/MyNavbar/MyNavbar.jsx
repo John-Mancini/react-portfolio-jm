@@ -1,27 +1,34 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { NavLink, Route } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-
+import "./MyNavbar.css";
 function MyNavbar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">John Mancini</Navbar.Brand>
-        <Nav className="ml-auto">
-          <Nav.Link href="/home">Home</Nav.Link>
-          <Nav.Link href="/aboutMe">About Me</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="/contactMe">Contact Me</Nav.Link>
-          <Button
-            variant="outline-info"
-            target="_blank"
-            href="https://docs.google.com/document/d/10zbbvnOojTSm1y7oOEqL77rxKF468-4wC3hJ2AUukls/edit?usp=sharing"
-          >
+      <nav id="navbar" bg="dark" variant="dark">
+        {/* <a href="#home">John Mancini</a> */}
+
+        <NavLink className="nav-links" to="/home">
+          Home
+        </NavLink>
+        <NavLink className="nav-links" to="/aboutMe">
+          About Me
+        </NavLink>
+        <NavLink className="nav-links" to="/projects">
+          Projects
+        </NavLink>
+        <NavLink className="nav-links" to="/contactMe">
+          Contact Me
+        </NavLink>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/10zbbvnOojTSm1y7oOEqL77rxKF468-4wC3hJ2AUukls/edit?usp=sharing"
+        >
+          <button className="nav-links" id="resume">
             Resume
-          </Button>
-        </Nav>
-      </Navbar>
+          </button>
+        </a>
+      </nav>
     </>
   );
 }
