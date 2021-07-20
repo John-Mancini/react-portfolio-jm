@@ -3,4 +3,12 @@
   border-color: black;
   border-width: 10px;
   border-style: solid;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 400px) {
+  #headshot {
+    width: 30%;
+    height: auto;
+  }
 }

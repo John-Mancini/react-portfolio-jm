@@ -5,6 +5,7 @@ import MyProjects from "./components/MyProjects/MyProjects.jsx";
 import MyHeader from "./components/MyHeader/MyHeader";
 import MyHome from "./components/MyHome/MyHome";
 import MyContactMe from "./components/MyContactMe/MyContactMe";
+import MyAboutMe from "./components/MyAboutMe/MyAboutMe";
 import { Route } from "react-router-dom";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <MyNavbar />
       <MyHeader />
-
+      <Route path="/aboutMe" render={MyAboutMe} />
       <Route path="/projects" render={MyProjects} />
       <Route path="/home" render={MyHome} />
       {/* <Route path="/aboutMe" render={MyAboutMe} /> */}
