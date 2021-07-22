@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.afac181b.chunk.css",
+    "main.js": "/static/js/main.a1326494.chunk.js",
+    "main.js.map": "/static/js/main.a1326494.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff5714fa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff5714fa.js.map",
+    "static/js/2.2565bcd5.chunk.js": "/static/js/2.2565bcd5.chunk.js",
+    "static/js/2.2565bcd5.chunk.js.map": "/static/js/2.2565bcd5.chunk.js.map",
+    "static/js/3.4ece6525.chunk.js": "/static/js/3.4ece6525.chunk.js",
+    "static/js/3.4ece6525.chunk.js.map": "/static/js/3.4ece6525.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.afac181b.chunk.css.map": "/static/css/main.afac181b.chunk.css.map",
+    "static/js/2.2565bcd5.chunk.js.LICENSE.txt": "/static/js/2.2565bcd5.chunk.js.LICENSE.txt",
+    "static/media/bet-fullstack.5316f2fe.png": "/static/media/bet-fullstack.5316f2fe.png",
+    "static/media/employee-directory.e7aba51a.png": "/static/media/employee-directory.e7aba51a.png",
+    "static/media/headshot.348a0d82.png": "/static/media/headshot.348a0d82.png",
+    "static/media/note-taker.763658b9.png": "/static/media/note-taker.763658b9.png",
+    "static/media/password-generator.67e5e3bc.png": "/static/media/password-generator.67e5e3bc.png",
+    "static/media/weather-api.00f1d0ae.png": "/static/media/weather-api.00f1d0ae.png",
+    "static/media/workout-tracker.3175ba27.png": "/static/media/workout-tracker.3175ba27.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff5714fa.js",
+    "static/js/2.2565bcd5.chunk.js",
+    "static/css/main.afac181b.chunk.css",
+    "static/js/main.a1326494.chunk.js"
+  ]
+}
